@@ -1,0 +1,365 @@
+@font-face {
+    font-family: "jedi";
+    src: url(/star_jedi/starjedi/Starjedi.ttf) format("truetype");
+    
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*h1 e img*/
+body{
+    width: 1440px;
+    background-color: #000000;
+    cursor: pointer;
+}
+#Cabecera{
+
+    width:100%;
+    margin-top: 150px;
+    height: 250px;
+
+}
+.caja-menor{
+    width: 50%;
+    margin: auto;
+    /*background-color: aqua;*/
+}
+
+h1{
+    width: 50%;
+    text-align: center;
+    height: 120px;
+    margin: auto;
+    line-height: 120px;
+    font-size: 28px;
+    color:white;
+    transition: all 2s linear;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-family: "jedi";
+    
+}
+h1:hover{
+    color: yellow;
+    animation: traslado;
+    box-shadow: 0px 0px 15px yellow;
+    font-size: 35px;
+}
+
+
+
+#navegador{
+    width: 120%;
+    height: 40px;
+    
+}
+
+#navegador ul{
+    list-style: none;
+    width: 105%;
+    height: 100%;
+    line-height: 40px;
+    
+}
+#navegador ul li{
+    padding: 10px;
+    background-color:#000000 /*rgb(75, 145, 206)*/;
+    float: left;
+    margin-left: 2%;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 5px;
+    
+}
+
+#navegador ul li:hover{
+    box-shadow: 0px 0px 15px yellow;
+}
+#navegador ul a {
+    width: 100%;
+    text-decoration: none;
+    font-size: 25px;
+    height: 100%;
+    transition: all 1s;
+    color: white;
+    font-family: "jedi";
+    
+}
+
+#navegador ul a:hover{
+    font-size: 35px;
+    
+}
+
+
+#navegador ul a:hover{
+    color: rgb(198, 198, 95);
+    animation: traslado;
+    /*box-shadow: 0px 0px 15px yellow;*/
+    font-size: 35px;
+    border-radius: 5px;
+    line-height: 18px;
+    
+}
+
+#Contain-table{
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    
+    border-radius: 5px;
+    color: white;
+}
+
+.Article-Box{
+    width: 100%;
+    font-size: 10px;
+    height: 32%;
+    margin-bottom: 5px;
+    transition: all 1s;
+    text-align: center;
+    color: wheat;
+}
+
+.Article-Box > .p3{
+    font-size: 10px;
+    transition: all 1s;
+}
+
+.p3:hover{
+    animation: traslado;
+    font-size: 20px;
+}
+.Article-Box:hover{
+    color: rgb(198, 198, 95);
+    animation: traslado;
+    box-shadow: 0px 0px 15px yellow;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.Article-Box > ul > li{
+    list-style: none;
+}
+
+
+
+
+/* pagi4*/
+
+
+.Articles-1{
+    width: 100%;
+    font-size: 10px;
+    height: 47%;
+    margin-bottom: 5px;
+    transition: all 1s;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+.Articles-1 > h2{
+    font-family: "jedi";
+}
+
+.Articles-1:hover{
+    
+    box-shadow: 0px 0px 15px white;
+ 
+}
+
+.Articles-1 > img{
+    width: 100%;
+    height: 100%;
+}
+
+/*Sables*/
+
+
+
+/*new way of build sables*/
+
+.Contenedor-sables{
+    width: 40px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    position:absolute;
+    left: 272px;
+    top:289px;
+}
+
+
+.box, .box2{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: -214px;
+}
+
+.sable, .sable2{
+    height: 220px;
+    background-color: #fff;
+    width: 8px;
+    border-radius: 7px 7px 0px 0px;
+    transition: 800ms;
+    transform-origin: bottom;
+    transform: scale(0);
+}
+.sable2{
+    left: 7px;
+}
+.mango{
+    position: absolute;
+    height: 150px;
+    width: 33px;
+    left: 5px;
+    top: 10em;
+    
+}
+.mango2{
+    position: absolute;
+    height: 150px;
+    width: 33px;
+    
+    
+}
+
+
+.red{
+    box-shadow: 0px 0px 10px red,
+    0px 0px 20px red,
+    0px 0px 24px red;
+}
+.blue{
+    box-shadow: 0px 0px 10px blue,
+    0px 0px 20px blue,
+    0px 0px 24px blue;
+}
+.boxm, .boxm2{
+    width: 50px;
+    height: 100px;
+    top:0px
+}
+img{
+    
+    width: 32px;
+    height: 100px;  
+    
+}
+
+/*el sable blue*/
+.Contenedor-sables-other{
+    width: 40px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    position:absolute;
+    left: 1160px;
+    top: 289px;
+}
+
+#Contain-table-pagina4{
+    width: 40%;
+    height: 346px;
+    margin: auto;
+    border-radius: 18px;
+}
+
+.Articles-1:hover{
+    background-image: url("/str.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    
+}
+.Articles-1 > h2  {
+    width: 100%;
+    height: 100%;
+    color:white;
+    box-shadow: 0px 0px 35px white;
+    
+}
+
+
+
+
+footer{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    background-color: #000000;
+    transform-origin: bottom;
+    transform: scale(0);
+    height: 250px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: all 1s;
+}
+footer:hover{
+    color: rgb(198, 198, 95);
+    animation: traslado;
+    box-shadow: 0px 0px 15px yellow;
+    font-size: 20px;
+}
+#Box-footer{
+    display: flex;
+    width: 30%;
+    font-family: "jedi";
+    align-items: center;
+    justify-items: center;
+    height: 75px;
+    text-align: center;
+    margin: auto;
+    justify-content: space-between;
+    color: white;
+    
+}
+
+.labels{
+    color: white;
+    font-size: 25px;
+    font-family: "jedi";
+    transition: 1s;
+    
+}
+.labels:hover{
+    font-size: 35px;
+    
+    
+    color: wheat;
+}
+input[type="text"]{
+    border-radius: 5px;
+    transition: all 1s;
+}
+input[type="text"]:hover{
+    background-color: wheat;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px yellow;
+}
+.submit{
+    width: 60px;
+    height: 30px;
+    font-family: "jedi";
+    margin-left: 30px;
+    transition: all 1s;
+    border-radius: 5px;
+}
+
+.submit:hover{
+    border-radius: 18px;
+    background-color: yellow;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px yellow;
+}
+
+
